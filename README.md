@@ -1,97 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Favorite</title>
-</head>
-
-<style>
-    * {
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
-    }
-    html {
-        background: url(https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/318410519_766687038154006_5290950428379611759_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oombfUjMc7wAX_7xAy8&_nc_ht=scontent.fsgn2-5.fna&_nc_e2o=s&oh=00_AfCO-fNGRf5w-E1tLqE6fmrJN6ia-TQqsStPjVLNVpTStA&oe=652DE97B) no-repeat center center fixed;
-
-        background-size: cover;
-    }
-    #sothich {
-        display: block;
-    }
-    .tieude1 {
-        text-align: center;
-        width: 150px;
-        height: 100x;
-        background-color: rgba(241, 88, 32, 0.918) ;
-        border-top-right-radius: 15px;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 2em 4em;
-
-    }
-
-    .tieude {
-        width: 90px;
-        height: 50px;
-        background-color: rgba(241, 88, 32, 0.918);
-        border-top-right-radius: 20px;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
-    }
-    .sothich-list {
-        width: 100%;
-        height: 500px;
-        display: flex;
-        justify-content: center;
-    }
-    .sothich-items {
-        margin-top: 10px;
-        float: center;
-        padding: 1.5rem;
-
-    }
-    .sothich-img {
-        border-top-right-radius: 40px;
-        width: 250px;
-        height: 300px;
-        margin-left: 0px;
-    }
-
-</style>
-
-<body>
-    <div id="sothich" style="text-align: center;">
-        <div class="tieude1">
-            <h1>Sở thích cá nhân</h1>
-        </div>
-        <div class="sothich-list">
-            <div class="sothich-items">
-                <h3 class="tieude" style="text-align: center;">Chơi game</h3>
-                <a href="https://www.leagueoflegends.com/vi-vn/"><img class="sothich-img" src="hình ảnh/LOL IMG.jpg"></a>
-            </div>
-
-            <div class="sothich-items">
-                <h3 class="tieude">Nghe nhạc</h3>
-                <a href="https://www.facebook.com/bannhacngot"><img class="sothich-img" src="hình ảnh/ngọt band.jpg"></a>
-            </div>
-            <div class="sothich-items">
-                <h3 class="tieude">Đi Cafe</h3>
-                <a href="https://www.google.com/maps/place/Katinat+Saigon+Kafe/@10.7747517,106.7043258,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipM3h5tHBUbvKncVKepgS-C3ukkwm92cia4RAZpU!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM3h5tHBUbvKncVKepgS-C3ukkwm92cia4RAZpU%3Dw92-h86-k-no!7i1600!8i1484!4m11!1m2!2m1!1za2F0aW5hdCB2aW5jb20gxJHhu5NuZyBraOG7n2k!3m7!1s0x31752f46f5b65c8f:0xe51326db1fd66a8c!8m2!3d10.7747517!4d106.7043258!10e5!15sCh1rYXRpbmF0IHZpbmNvbSDEkeG7k25nIGto4bufaSIDiAEBWh8iHWthdGluYXQgdmluY29tIMSR4buTbmcga2jhu59pkgELY29mZmVlX3Nob3DgAQA!16s%2Fg%2F11cjpd37n8?hl=vi-VN&entry=ttu"> <img class="sothich-img" src="hình ảnh/Katinat.jpg"></a>
-            </div>
-            <div class="sothich-items">
-                <h3 class="tieude">Ngắm cảnh</h3>
-                <a href="https://www.google.com/maps/d/u/0/viewer?mid=1Kq7WF-KwayjcP8uS-y-9YCoMuY4&hl=en_US&ll=10.924817193345332%2C108.11472975765167&z=17"><img class="sothich-img" src="hình ảnh/BÌnh minh.jpg"></a>      
-            </div>
-        </div>
-
-    </div>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Minh Thịnh personal web</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: url(https://images4.alphacoders.com/128/1280867.jpg) no-repeat;
+            background-size: cover;
+          }
+          .box{
+            width: 450px;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 40px;
+            text-align: center;
+            margin: auto;
+            margin-top: 5%;
+            color: white;
+            font-family: 'Century Gothic',sans-serif;
+          }
+          .box-img{
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+          }
+          .box h1{
+            font-size: 40px;
+            letter-spacing: 4px;
+            font-weight: 100;
+          }
+          .box h5{
+            font-size: 20px;
+            letter-spacing: 3px;
+            font-weight: 100;
+          }
+          .box p{
+            text-align: justify;
+          }
+          ul{
+            margin: 0;
+            padding: 0;
+          }
+          .box li{
+            display: inline-block;
+            margin: 6px;
+            list-style: none;
+          }
+          .box li a{
+            color: white;
+            text-decoration: none;
+            font-size: 60px;
+            transition: all ease-in-out 250ms;
+          }
+          .box li a:hover{
+            color: #b9b9b9;
+          }
+          h3{
+            display: inline-block;
+            font-size: 1.1em;
+            background-color: rgb(3, 106, 180);
+            border-radius: 1em;
+            color: #fff;
+            padding: 0.3em 0.5em;
+            border: 2px solid white;
+            margin: 0.2em;
+          }
+          
+    </style>
+  </head>
+  <body>
+<div class="box">
+  <img src="hình ảnh/1135964447576445060.webp" alt="" class="box-img">
+  <h1>
+Phan Huỳnh Minh Thịnh</h1>
+<h5>
+Khoa Công Nghệ Thông Tin</h5>
+<p>Tuổi: 18</p>
+<p>Ngày sinh:22/10/2005</p>
+<p>Phone:0984250431</p>
+<p>Địa chỉ:114 Đường N,Phường G,Quận U,TP.HCM </p>
+<ul>
+  <li><a href="https://www.facebook.com/profile.php?id=100079279657877"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+</ul>
+<li><h3><a href="Trang sở thích.html" target="_blank">Trang sở thích</a></h3></li>
+</div>
 </body>
+</html> 
+
+
 
 </html>
